@@ -44,7 +44,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: automation-web-report-prd
-        path: /home/runner/work/automation-web-cypress-ci/automation-web-cypress-ci/reports/mochawesome-report
+        path: /home/runner/work/automation-web-cypress-ci/automation-web-cypress-ci/mochawesome-report
 
   build-development:
     runs-on: ubuntu-latest
@@ -79,4 +79,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: automation-web-report-dev
-        path: /home/runner/work/automation-web-cypress-ci/automation-web-cypress-ci/reports/mochawesome-report  
+        path: /home/runner/work/automation-web-cypress-ci/automation-web-cypress-ci/mochawesome-report  
