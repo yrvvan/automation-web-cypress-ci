@@ -73,6 +73,8 @@ $ npm run qase PLYGRND                  | to send test coverage from test case m
 
 ###### Test Coverage Summary in Slack
 <img width="400" alt="Screen Shot 2024-10-15 at 13 15 21" src="https://github.com/user-attachments/assets/9988d47a-243d-4242-8b1c-94da0394f0a5">
+
+###### Auto Create Test Run in Qase.io
 <img width="1280" alt="Screen Shot 2024-10-15 at 13 01 37" src="https://github.com/user-attachments/assets/bba1085a-5d98-430d-a9ad-8afd307f4ca9">
 <img width="1279" alt="Screen Shot 2024-10-15 at 13 01 01" src="https://github.com/user-attachments/assets/b1a8004b-a580-40e5-a1be-4342f41314b2">
 
