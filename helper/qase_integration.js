@@ -191,7 +191,7 @@ const _pushNotificationMattermost = async function (coverage) {
 	// 	console.error(`Error: ${error.response.statusText}`);
 	// }
 
-	let message = `#### Qase.io Test case coverage\n<!channel>\nTest case coverage: ${coverage.tcCoverage}%\nAutomated Cases: ${coverage.automatedCases} cases\nQase.io Cases: ${coverage.qaseIOCases} cases\nTest Run URL: [Qase.io](${coverage.testRunURL})`;
+	let message = `Qase.io Test case coverage\n<!channel>\nTest case coverage: ${coverage.tcCoverage}%\nAutomated Cases: ${coverage.automatedCases} cases\nQase.io Cases: ${coverage.qaseIOCases} cases\nTest Run URL: <${coverage.testRunURL}|Qase.io Public Test Run Result>`;
 	const notifPayload = {
 		'username': 'at-api-notifications',
 		'icon_url': 'https://www.ucdenver.edu/images/librariesprovider252/icons-and-logos/icon_slack_hash_colored.png?sfvrsn=ca2ec8b9_0',
