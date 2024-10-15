@@ -158,7 +158,7 @@ const testCaseCoverage = async function (report, testRunURL) {
 		console.error(error.message);
 	}
 
-	let tcCoverage = ((reportCounter / qaseCounter) * 100).toFixed(2);
+	let tcCoverage = Number((reportCounter / qaseCounter) * 100);
 
 	let coverage = {
 		'automatedCases': reportCounter,
