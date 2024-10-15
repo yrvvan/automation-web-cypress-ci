@@ -2,7 +2,7 @@
 var myArgs = process.argv.slice(1);
 require('dotenv').config();
 
-const qaseProject = myArgs[0];
+const qaseProject = myArgs[1];
 
 const fs = require('fs');
 const path = require('path');
@@ -61,6 +61,7 @@ const publicTestRun = async function (testRunId) {
 		}, {
 			headers: headerValue
 		});
+
 		return response.data.result.url;
 	} catch (error) {
 		console.error(error.message);
