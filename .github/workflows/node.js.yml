@@ -39,7 +39,7 @@ jobs:
         MATTERMOST_WEBHOOK: ${{ secrets.MATTERMOST_WEBHOOK }}
         QASE_IO_TOKEN: ${{ secrets.QASE_IO_TOKEN }}
         QASE_API: ${{ vars.QASE_API }}
-      run: npm run notify
+      run: npm run qase PLYGRND
     - name: Archive Reports
       uses: actions/upload-artifact@v4
       with:
@@ -74,7 +74,7 @@ jobs:
         MATTERMOST_WEBHOOK: ${{ secrets.MATTERMOST_WEBHOOK }}
         QASE_IO_TOKEN: ${{ secrets.QASE_IO_TOKEN }}
         QASE_API: ${{ vars.QASE_API }}
-      run: npm run notify
+      run: npm run qase PLYGRND
     - name: Archive Reports
       uses: actions/upload-artifact@v4
       with:
